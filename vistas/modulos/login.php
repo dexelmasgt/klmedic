@@ -4,21 +4,13 @@
     <div class="card card-outline card-primary elevation-3">
         <div class="card-header text-center text-primary">
         <!-- <a href="#" class="h1"><b class="text-warning">KL</b>Shop<small class="text-muted text-lg">v2</small></a> -->
-        <h1><b class="text-warning">KL</b>Shop<small class="text-muted text-lg">v2</small></h1>
+        <h1><b class="text-warning">KL</b>Medic<small class="text-muted text-lg">v1.0</small></h1>
         </div>
         <div class="card-body">
         <p class="login-box-msg">Ingresa tu usuario y contraseña para acceder al sistema.</p>
 
         <form method="post">
-            <div class="input-group mb-3">
-            <div class="input-group-append">
-                <div class="input-group-text text-primary">
-                <ion-icon name="storefront"></ion-icon>
-                </div>
-            </div>
-            <input autofocus type="text" class="form-control" placeholder="Código de empresa" name="ingEmpresa" required>
             
-            </div>
             <div class="input-group mb-3">
             <div class="input-group-append">
                 <div class="input-group-text text-primary">

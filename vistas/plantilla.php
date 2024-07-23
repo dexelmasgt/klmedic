@@ -8,7 +8,7 @@ session_start();
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="vistas/img/plantilla/favicon.png" type="image/x-icon">
-  <title>KL Shop by KreatifLab</title>
+  <title>KL Medic by KreatifLab</title>
 
   <!--=========================
   PLUGINS DE CSS
