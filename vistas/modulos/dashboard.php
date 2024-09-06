@@ -9,7 +9,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item active"><?php echo fecha_completa(date("d-m-Y h:i:s"));?></li>
+            <li class="breadcrumb-item active"><?php echo fechaLargaActual();?></li>
             </ol>
           </div>
         </div>

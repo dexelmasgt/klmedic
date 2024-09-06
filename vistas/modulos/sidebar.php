@@ -35,14 +35,135 @@
               </p>
             </a> 
           </li>
+          
           <li class="nav-item">
-            <a href="usuarios" class="nav-link">
-              <i class="nav-icon fas fa-user"></i>
+            <a href="rentas" class="nav-link">
+              <i class="nav-icon far fa-calendar-alt"></i>
               <p>
-                Usuarios
+                Citas
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="nueva-renta" class="nav-link">
+                  <i class="nav-icon fa fa-retweet"></i>
+                  <p>Seguimientos</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="clientes" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Pacientes
               </p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="cotizaciones" class="nav-link">
+              <ion-icon class="nav-icon" name="reader"></ion-icon>  
+              <p>
+                Recetas
+                <i class="fas fa-angle-left right"></i>
+                <span class="right badge badge-success" title="Explora las nuevas características.">Nuevo</span>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="nueva-cotizacion" class="nav-link">
+                  <i class="far fa-plus nav-icon"></i>
+                  <p>Nueva receta</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="ver-cotizaciones" class="nav-link">
+                  <i class="far fa-eye nav-icon"></i>
+                  <p>Ver recetas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="mensajes" class="nav-link">
+              <i class="nav-icon far fa-envelope"></i>
+              <p>
+                Mensajes
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="bandeja-de-entrada" class="nav-link">
+                  <i class="fa fa-inbox nav-icon"></i>
+                  <p>Bandeja de Entrada</p>
+                  <span class="badge badge-success right" title="Tienes 4 mensajes sin leer.">4</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="nuevo-mensaje" class="nav-link">
+                  <i class="fa fa-pencil-square-o nav-icon"></i>
+                  <p>Redactar</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          
+          
+          
+          
+
+          
+
+          
+          
+          <li class="nav-header">OTRAS FUNCIONES</li>
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a href="configuracion" class="nav-link">
+              <i class="nav-icon fa-solid fa-sliders"></i>
+              <p>
+                Configuración
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="usuarios" class="nav-link">
+                  <i class="nav-icon fas fa-user"></i>
+                  <p>
+                    Usuarios
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="empresa" class="nav-link">
+                <ion-icon class="nav-icon" name="storefront"></ion-icon>
+                  <p>Empresa</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="acerca-de" class="nav-link">
+                  <i class="fa fa-info nav-icon"></i>
+                  <p>Acerca de</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- ESTAS FUNCIONALIDADES ESTÁN COMENTADAS DEBIDO A QUE SE TIENE PENSADO AGREGARLAS
+           A LA APLICACIÓN EN FUTURAS VERSIONES
+           
           <li class="nav-item">
             <a href="categorias" class="nav-link">
               <ion-icon class="nav-icon" name="grid"></ion-icon>
@@ -61,16 +182,7 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
-            <a href="clientes" class="nav-link">
-              <i class="nav-icon fas fa-users"></i>
-              <p>
-                Clientes
-              </p>
-            </a>
-            
-          </li>
-          
+
           <li class="nav-item">
             <a href="ventas" class="nav-link">
               <i class="nav-icon fa-solid fa-cash-register"></i>
@@ -102,136 +214,6 @@
           </li>
 
           <li class="nav-item">
-            <a href="rentas" class="nav-link">
-            <i class="nav-icon fa fa-retweet"></i>
-              <p>
-                Rentas
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="nueva-renta" class="nav-link">
-                  <i class="far fa-plus nav-icon"></i>
-                  <p>Nueva renta</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="ver-rentas" class="nav-link">
-                  <i class="far fa-eye nav-icon"></i>
-                  <p>Ver rentas</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="reportes-rentas" class="nav-link">
-                <i class="nav-icon fa-solid fa-file-invoice"></i>
-                  <p>Reportes</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a href="cotizaciones" class="nav-link">
-              <ion-icon class="nav-icon" name="reader"></ion-icon>  
-              <p>
-                Cotizaciones
-                <i class="fas fa-angle-left right"></i>
-                <span class="right badge badge-success" title="Explora las nuevas características.">Nuevo</span>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="nueva-cotizacion" class="nav-link">
-                  <i class="far fa-plus nav-icon"></i>
-                  <p>Nueva cotización</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="ver-cotizaciones" class="nav-link">
-                  <i class="far fa-eye nav-icon"></i>
-                  <p>Ver cotizaciones</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="reportes-cotizaciones" class="nav-link">
-                <i class="nav-icon fa-solid fa-file-invoice"></i>
-                  <p>Reportes</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="despachos" class="nav-link">
-            <i class="nav-icon fa-solid fa-truck-fast"></i>
-              <p>
-                Despachos
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="nuevo-despacho" class="nav-link">
-                  <i class="far fa-plus nav-icon"></i>
-                  <p>Nuevo despacho</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="ver-despachos" class="nav-link">
-                  <i class="far fa-eye nav-icon"></i>
-                  <p>Ver despachos</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="reportes-despachos" class="nav-link">
-                <i class="nav-icon fa-solid fa-file-invoice"></i>
-                  <p>Reportes</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-header">OTRAS FUNCIONES</li>
-          <li class="nav-item">
-            <a href="agenda" class="nav-link">
-              <i class="nav-icon far fa-calendar-alt"></i>
-              <p>
-                Agenda
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="galeria" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Galería
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="mensajes" class="nav-link">
-              <i class="nav-icon far fa-envelope"></i>
-              <p>
-                Mensajes
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="bandeja-de-entrada" class="nav-link">
-                  <i class="fa fa-inbox nav-icon"></i>
-                  <p>Bandeja de Entrada</p>
-                  <span class="badge badge-success right" title="Tienes 4 mensajes sin leer.">4</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="nuevo-mensaje" class="nav-link">
-                  <i class="fa fa-pencil-square-o nav-icon"></i>
-                  <p>Redactar</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
             <a href="documentos" class="nav-link">
               <i class="nav-icon fa fa-file-text"></i>
               <p>
@@ -259,31 +241,7 @@
               </a>
             </li>
             </ul>
-          </li> 
-          
-          <li class="nav-item">
-            <a href="configuracion" class="nav-link">
-              <i class="nav-icon fa-solid fa-sliders"></i>
-              <p>
-                Configuración
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="empresa" class="nav-link">
-                <ion-icon class="nav-icon" name="storefront"></ion-icon>
-                  <p>Empresa</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="acerca-de" class="nav-link">
-                  <i class="fa fa-info nav-icon"></i>
-                  <p>Acerca de</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+          </li>  -->
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

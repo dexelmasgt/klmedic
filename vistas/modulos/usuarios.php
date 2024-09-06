@@ -9,7 +9,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item active">Viernes, 5 de enero de 2024 14:53 Hrs.</li>
+              <li class="breadcrumb-item active"><?php echo fechaLargaActual();?></li>
             </ol>
           </div>
         </div>
