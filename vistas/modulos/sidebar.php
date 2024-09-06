@@ -5,7 +5,7 @@
     <a href="dashboard" class="brand-link">
       <img src="vistas/img/plantilla/EsferaKL.png" alt="KLShop Logo" class="brand-image img-circle elevation-2" style="opacity: .8">
       <!-- <span class="brand-text"><img src="vistas/img/plantilla/LogoKLHori.png" alt="KLShop Logo" style="height: 30px;"></span>-->
-      <span class="brand-text">KL Shop <small class="font-weight-light">by KreatifLab</small></span> 
+      <span class="brand-text">KL Medic <small class="font-weight-light">by KreatifLab</small></span> 
     </a>
 
     <!-- Sidebar -->
@@ -55,7 +55,7 @@
             <a href="productos" class="nav-link">
               <i class="nav-icon fa fa-product-hunt"></i>  
               <p>
-                Productos
+                Medicamentos
                 <span class="badge badge-danger right" title="Tienes 8 productos vencidos.">8</span>
                 <span class="badge badge-warning right" title="Tienes 3 productos con stock bajo.">3</span>
               </p>

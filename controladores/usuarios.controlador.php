@@ -4,19 +4,17 @@ class ControladorUsuarios{
     //METODO PARA LOGIN
     static public function ctrIngresoUsuario(){
         if (isset($_POST["ingUsuario"])) {
-            if (preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingEmpresa"]) && 
-                preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingUsuario"]) && 
+            if (preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingUsuario"]) && 
                 preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])) {
                 
-                $tabla = "usuarios" ; //TABLA ES LA TABLA QUE VA A IR A CONSULTAR A LA BASE DE DATOS
+                $tabla = "usuario" ; //TABLA ES LA TABLA QUE VA A IR A CONSULTAR A LA BASE DE DATOS
                 $item = "user_usuario" ; //ITEM ES LA COLUMNA QUE VA A IR A BUSCAR EN LA BASE DE DATOS
                 $valor = $_POST["ingUsuario"] ;
 
                 $respuesta = ModeloUsuarios::mdlMostrarUsuarios($tabla, $item, $valor);
 
                 
-                if ($respuesta["empresa_usuario"] == $_POST["ingEmpresa"] &&
-                   $respuesta["user_usuario"] == $_POST["ingUsuario"] &&
+                if ($respuesta["user_usuario"] == $_POST["ingUsuario"] &&
                    $respuesta["pass_usuario"] == $_POST["ingPassword"]){
                     
                     $_SESSION["iniciarSesion"] = "ok";

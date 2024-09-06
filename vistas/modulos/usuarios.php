@@ -238,18 +238,7 @@
                   <option value="especial">Especial</option>
                 </select>
               </div>
-              <div class="input-group col-md-5">
-                <div class="input-group-append">
-                  <div class="input-group-text text-success">
-                    <ion-icon name="storefront"></ion-icon>
-                  </div>
-                </div>
-                <select class="form-control input-lg" name="nuevoSucursal" id="Sucursal" >
-                  <option value="sucursal1">Sucursal 1</option>
-                  <option value="sucursal2">Sucursal 2</option>
-                  <option value="sucursal3">Sucursal 3</option>
-                </select>
-              </div>
+              
               <div class="input-group col-md-3">
                 <div class="input-group-append">
                   <div class="input-group-text text-success">
