@@ -6,6 +6,9 @@ class Conexion{
 
 		//LOCALHOST 
 		$link = new PDO("mysql:host=localhost;dbname=klmedic","root","kreatiflab");
+
+		//Network Solutions 
+		//$link = new PDO("mysql:host=vuxmysql11;dbname=klmedic","klmedic","KreatifL@b2024");
 		
 		$link->exec("set names utf8");
 

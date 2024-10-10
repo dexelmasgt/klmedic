@@ -37,7 +37,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="rentas" class="nav-link">
+            <a href="citas" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
                 Citas
@@ -46,7 +46,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="nueva-renta" class="nav-link">
+                <a href="citas" class="nav-link">
                   <i class="nav-icon fa fa-retweet"></i>
                   <p>Seguimientos</p>
                 </a>

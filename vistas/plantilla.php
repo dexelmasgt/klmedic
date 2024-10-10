@@ -136,6 +136,7 @@ if (isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok") {
             $_GET["ruta"]=="configuracion" ||
             $_GET["ruta"]=="empresa" ||
             $_GET["ruta"]=="acerca-de" ||
+            $_GET["ruta"]=="citas" ||
             $_GET["ruta"]=="salir") {
           //Incluimos la página del dashboard
           include "modulos/".$_GET["ruta"].".php";
